@@ -4,29 +4,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us - CTask</title>
+    <title>Contact - CTask</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<section class="contact">
+<section class="contact-section">
 
-    <h1>Send Your Task</h1>
+    <h2>Send Your Task</h2>
 
-    <form action="send-email.php" method="POST">
+    <form action="send-email.php" method="POST" class="contact-form">
 
         <input type="text" name="name" placeholder="Your Name" required>
 
         <input type="email" name="email" placeholder="Your Email" required>
 
-        <input type="text" name="title" placeholder="Task Title" required>
+        <textarea name="message" placeholder="Describe your task..." required></textarea>
 
-        <textarea name="description" placeholder="Describe your task..." required></textarea>
+        <label>Select Email Provider:</label>
+        <select name="provider">
+            <option value="gmail">Gmail</option>
+            <option value="yahoo">Yahoo</option>
+            <option value="default">Default Mail App</option>
+        </select>
 
-        <input type="number" name="budget" placeholder="Your Budget (Optional)">
-
-        <button type="submit">Send Task</button>
+        <button type="submit" class="btn">Send Task</button>
 
     </form>
 
@@ -36,4 +39,3 @@
 
 </body>
 </html>
-

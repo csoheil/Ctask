@@ -2,29 +2,33 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $name  = htmlspecialchars($_POST["name"]);
-    $email = htmlspecialchars($_POST["email"]);
-    $title = htmlspecialchars($_POST["title"]);
-    $desc  = htmlspecialchars($_POST["description"]);
-    $budget = htmlspecialchars($_POST["budget"]);
+    $name  = urlencode($_POST["name"] ?? '');
+    $email = urlencode($_POST["email"] ?? '');
+    $msg   = urlencode($_POST["message"] ?? '');
+    $provider = $_POST["provider"] ?? 'gmail';
 
     $to = "ctask2026@gmail.com";
-    $subject = "New Task Request: $title";
+    $subject = urlencode("New Task from $name");
 
-    $message = "
-    Name: $name\n
-    Email: $email\n
-    Budget: $budget\n\n
-    Description:\n$desc
-    ";
+    $body  = "Name: $name%0D%0A";
+    $body .= "Email: $email%0D%0A%0D%0A";
+    $body .= "Message:%0D%0A$msg";
 
-    $headers = "From: $email";
+    switch ($provider) {
 
-    if (mail($to, $subject, $message, $headers)) {
-        echo "Task sent successfully!";
-    } else {
-        echo "Failed to send task.";
+        case "gmail":
+            $url = "https://mail.google.com/mail/u/0/?fs=1&to=$to&su=$subject&body=$body&tf=cm";
+            break;
+
+        case "yahoo":
+            $url = "https://compose.mail.yahoo.com/?to=$to&subject=$subject&body=$body";
+            break;
+
+        default:
+            $url = "mailto:$to?subject=$subject&body=$body";
+            break;
     }
 
+    header("Location: $url");
+    exit();
 }
-?>
