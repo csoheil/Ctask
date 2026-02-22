@@ -36,6 +36,6 @@
 </section>
 
 <?php include 'components/footer.php'; ?>
-
+<script src="assets/js/validate.js"></script>
 </body>
 </html>
