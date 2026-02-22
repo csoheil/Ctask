@@ -27,7 +27,7 @@
 
         <div class="card">
             <h3>Programming</h3>
-            <p>Web, Backend, Scripts & Automation., etc.</p>
+            <p>Web, Backend, Scripts & Automation, etc.</p>
         </div>
 
         <div class="card">
@@ -36,7 +36,7 @@
         </div>
 
         <div class="card">
-            <h3>Office products</h3>
+            <h3>Office Products</h3>
             <p>Presentation & document creation/editing.</p>
         </div>
 
