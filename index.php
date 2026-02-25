@@ -14,7 +14,7 @@
 
 <section class="hero">
     <h1>Welcome to CTask</h1>
-    <p>We do your tasks with the best quality & lowest price.</p>
+    <p>We do your tasks with the best quality & lowest price</p>
 
     <a href="contact.php" class="btn">Send Your Task</a>
 </section>
