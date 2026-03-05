@@ -26,6 +26,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 $name  = urlencode($name);
 $email = urlencode($email);
 $msg   = urlencode($msg);
+$test = "hello";
 
 $to = "ctask2026@gmail.com";
 $subject = urlencode("New Task from $name");

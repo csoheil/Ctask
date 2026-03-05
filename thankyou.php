@@ -10,7 +10,7 @@
 
 <section class="hero">
     <h1>Thank You!</h1>
-    <p>Your task information is ready to be sent.</p>
+    <p>Your TASK information is ready to be sent.</p>
     <a href="index.php" class="btn">Back to Home</a>
 </section>
 

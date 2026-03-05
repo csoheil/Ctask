@@ -24,7 +24,8 @@
             ["PDF Services", "Create, edit & convert PDFs."],
             ["Video Editing", "Professional video production."],
             ["Image & Logo Design", "Branding & graphics."],
-            ["Industrial Design (CATIA)", "3D CAD industrial modeling."]
+            ["Industrial Design (CATIA)", "3D CAD industrial modeling."],
+            ["Image Editing", "Branding & graphics."],
         ];
 
         foreach ($services as $service) {
