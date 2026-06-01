@@ -10,6 +10,7 @@
         <li><a href="about.php">About</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="faq.php">Faq</a></li>
+        <a href="privacy.php">Privacy Policy</a>
     </ul>
 
 </nav>
