@@ -1,0 +1,28 @@
+# IDE files
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Composer
+/vendor/
+
+# Node modules
+/node_modules/
+
+# Cache
+/cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# VSCode
+.vscode/
