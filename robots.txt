@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /config/
+Disallow: /components/
+
+Sitemap: http://localhost/ctask/sitemap.xml
