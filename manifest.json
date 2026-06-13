@@ -1,0 +1,16 @@
+{
+    "name": "CTask",
+    "short_name": "CTask",
+    "start_url": "/ctask/index.php",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0077ff",
+    "description": "Affordable digital task and freelance services.",
+    "icons": [
+        {
+            "src": "assets/images/favicon/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>http://localhost/ctask/index.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/ctask/about.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/ctask/services.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/ctask/contact.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/ctask/faq.php</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost/ctask/privacy.php</loc>
+    </url>
+
+</urlset>
