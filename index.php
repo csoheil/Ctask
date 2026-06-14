@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CTask - We Do Your Tasks</title>
-
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="icon" href="assets/images/favicon/favicon.ico">

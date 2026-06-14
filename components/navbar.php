@@ -11,7 +11,6 @@
         <li><a href="contact.php">Contact</a></li>
         <li><a href="faq.php">Faq</a></li>
         <a href="privacy.php">Privacy Policy</a>
-        <link rel="manifest" href="manifest.json">
     </ul>
 
 </nav>

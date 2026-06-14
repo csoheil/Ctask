@@ -5,6 +5,7 @@
 <head>
     <title>Thank You - CTask</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
 

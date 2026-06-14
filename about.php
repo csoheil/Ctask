@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us - CTask</title>
-
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>

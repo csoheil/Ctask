@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="manifest" href="manifest.json">
     <title>404 - Page Not Found</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
