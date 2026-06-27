@@ -12,6 +12,7 @@
         <li><a href="faq.php">Faq</a></li>
         <a href="privacy.php">Privacy Policy</a>
         <li><a href="pricing.php">Pricing</a></li>
+        <li><a href="testimonials.php">Testimonials</a></li>
     </ul>
 
 </nav>
