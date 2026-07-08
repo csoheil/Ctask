@@ -5,15 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php echo $pageTitle ?? 'CTask'; ?></title>
-
-    <meta name="description"
-          content="CTask provides affordable programming, research writing, design, presentation, and industrial design services.">
-
-    <meta name="keywords"
-          content="programming, PHP, Python, research writing, CATIA, design, freelance services">
-
-    <meta name="author" content="CTask">
+      <?php include 'components/seo.php'; ?>
 
     <link rel="manifest" href="/ctask/manifest.json">
 

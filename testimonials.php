@@ -14,7 +14,7 @@ include 'components/navbar.php';
     </p>
 
     <div class="testimonial-card">
-        <h3>Coming Soon</h3>
+        <h3>Coming Soon</h3> 
 
         <p>
             We are currently building our portfolio. Once we complete
